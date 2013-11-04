@@ -1,0 +1,22 @@
+- Nodes:
+  cloud01
+  cloud02
+  cloud03
+  cloud04
+  cloud05
+  cloud06
+  cloud07
+  cloud08
+  cloud09
+  cloud10
+  cloud11
+  cloud12
+
+- Nics:
+  eth0
+
+- Networks:
+  10.173.16.0/24
+
+- Reserved ips:
+  10.173.16.1-24

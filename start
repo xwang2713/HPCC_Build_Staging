@@ -1,0 +1,4 @@
+#!/bin/bash
+./stop
+
+python ./manage.py runfcgi host=127.0.0.1 port=9001 daemonize=true pidfile=/tmp/dj.pid errlog=/tmp/err.log outlog=/tmp/out.log pre method=prefork

@@ -1,0 +1,114 @@
+- model: api.OsTemplate
+  pk: 1
+  fields:
+    Tname: CentOS
+    Ttitle: HPCC Platform Centos5
+    Tinstall: platform
+    Tos: centos
+    Tid: el5
+- model: api.OsTemplate
+  pk: 2
+  fields:
+    Tname: CentOS
+    Ttitle: HPCC Platform Centos6
+    Tinstall: platform
+    Tos: centos
+    Tid: el6
+- model: api.OsTemplate
+  pk: 3
+  fields:
+    Tname: Debian
+    Ttitle: HPCC Platform Debian Squeeze
+    Tinstall: platform
+    Tos: debian
+    Tid: squeeze
+- model: api.OsTemplate
+  pk: 4
+  fields:
+    Tname: MacOSX
+    Ttitle: Client Tools for Mac OSX
+    Tinstall: clienttools
+    Tos: mac
+    Tid: Darwin
+- model: api.OsTemplate
+  pk: 5
+  fields:
+    Tname: OpenSUSE
+    Ttitle: HPCC Platform OpenSUSE 11.4
+    Tinstall: platform
+    Tos: opensuse
+    Tid: suse11.4
+- model: api.OsTemplate
+  pk: 6
+  fields:
+    Tname: Ubuntu
+    Ttitle: HPCC Platform Ubuntu 10.04 LTS
+    Tinstall: platform
+    Tos: ubuntu
+    Tid: lucid
+- model: api.OsTemplate
+  pk: 7
+  fields:
+    Tname: Ubuntu
+    Ttitle: HPCC Platform Ubuntu 11.04
+    Tinstall: platform
+    Tos: ubuntu
+    Tid: natty
+- model: api.OsTemplate
+  pk: 8
+  fields:
+    Tname: Ubuntu
+    Ttitle: HPCC Platform Ubuntu 11.10
+    Tinstall: platform
+    Tos: ubuntu
+    Tid: oneiric
+- model: api.OsTemplate
+  pk: 9
+  fields:
+    Tname: Ubuntu
+    Ttitle: HPCC Platform Ubuntu 12.04 LTS
+    Tinstall: platform
+    Tos: ubuntu
+    Tid: precise
+- model: api.OsTemplate
+  pk: 10
+  fields:
+    Tname: Windows
+    Ttitle: ECL IDE and Client Tools for Windows
+    Tinstall: clienttools
+    Tos: windows
+    Tid: ECLIDE
+- model: api.OsTemplate
+  pk: 11
+  fields:
+    Tname: Windows
+    Ttitle: Graph Control for Windows 32 bit
+    Tinstall: clienttools
+    Tos: windows
+    Tid: GraphControl.
+- model: api.OsTemplate
+  pk: 12
+  fields:
+    Tname: Windows
+    Ttitle: Graph Control for Windows 64 bit
+    Tinstall: clienttools
+    Tos: windows
+    Tid: GraphControl64
+- model: api.OsTemplate
+  pk: 13
+  fields:
+    Tname: Windows
+    Ttitle: Client Tools for Windows
+    Tinstall: clienttools
+    Tos: windows
+    Tid: Windows
+- model: api.OsTemplate
+  pk: 14
+  fields:
+    Tname: all
+    Ttitle: HPCC VM Image
+    Ttext: Release Notes
+    Tlink: /downloads/vm-release-notes#
+    Tinstall: platform
+    Tos: all
+    Tid: VM

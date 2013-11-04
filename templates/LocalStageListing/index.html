@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="robots" content="NONE,NOARCHIVE" />
+    <title>Listing of local staged builds.</title>
+    {% load static from staticfiles %}
+    <script src="http://coffeescript.org/extras/coffee-script.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.21//themes/base/jquery.ui.all.css">
+    <style type="text/css">
+    .ui-combobox {
+        position: relative;
+        display: inline-block;
+    }
+    .ui-combobox-toggle {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: -1px;
+        padding: 0;
+        /* adjust styles for IE 6/7 */
+        *height: 1.7em;
+        *top: 0.1em;
+    }
+    .ui-combobox-input {
+        margin: 0;
+        padding: 0.3em;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none !important;
+    }
+
+    body {
+        font: 76%/1.4 "Lucida Grande", Verdana, sans-serif;
+        color: #333;
+        background: #fff;
+        margin-left: 1em;
+    }
+
+    button {
+        -webkit-transition: background-color 0.2s linear;
+        border-radius:4px;
+        -moz-border-radius: 4px 4px 4px 4px;
+        -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+        background-color: #E4F2FF;
+        background-image: url("http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dijit/themes/claro/form/images/button.png");
+        background-position: center top;
+        background-repeat: repeat-x;
+        border: 1px solid #769DC0;
+        padding: 2px 8px 4px;
+        font-size:1em;
+    }
+
+    button:hover {
+        background-color: #AFD9FF;
+        color: #000000;
+    }
+
+    a:link, a:visited, a:hover, a:active {
+        color: #06c;
+    }
+
+    fieldset {
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 2px 0 2px 0;
+        padding: 6px;
+        margin: 1em 0;
+        width: 90%;
+        background: #f7f7f7;
+    }
+
+    legend {
+          padding: 0 2px;
+          font-weight: bold;
+    }
+
+    dt {
+        margin: 0.75em 0 0.25em 0;
+    }
+
+    dd {
+        margin: 0.25em 0 0.75em 0;
+    }
+
+    dd.error {
+        border-style: solid;
+        border-color: #f00;
+        border-width: 1px 0 1px 0;
+        background: #ffc top left no-repeat;
+        color: #f00;
+        padding-left: 20px;
+    }
+
+    #results {
+        margin: 2em 0 0 0;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 2px 0 2px 0;
+        padding: 6px;
+        width: 90%;
+        background: #f7f7f7;
+    }
+
+    #results ul {
+        margin-left: 2em;
+        list-style-type: square;
+    }
+
+    p {
+        width: 80%;
+        margin: 0 0 1em 0;
+    }
+
+    h1 {
+        font-size: 120%;
+        margin: 1em 0 1em 0;
+    }
+    </style>
+</head>
+<body>
+    <fieldset class="demo">
+        <dl>
+            <dt>Staged Builds:</dt>
+            <dd class="ui-widget">
+                <select id="builds"></select>
+                <select id="versions"></select>
+            </dd>
+        </dl>
+    </fieldset>
+<!--
+    <fieldset class="downloads">
+        <dl>
+            <dt>Download Links:</dt>
+            <dd>
+                <div id="JSONlinks"></div>
+            </dd>
+        </dl>
+    </fieldset>
+-->
+    <fieldset class="results">
+        <dl>
+            <dt>JSON Release File:</dt>
+            <dd>
+                <div id="JSONrel"></div>
+            </dd>
+        </dl>
+    </fieldset>
+<script type="text/coffeescript">
+defaults = 
+    builds:
+        value: ''
+        text: 'Select a Build'  
+    versions:
+        value: ''
+        text: 'Select a Version'
+            
+jsonCall = (url, callback) ->
+    $.getJSON url, callback
+
+buildForm = (name, values=false, opt=false) ->
+    vOpt = opt if opt
+    vOpt = makeDef name if not opt 
+    vOpt += makeOpt hV,hV for hV in values if values
+    id = "#"+name
+    $(id).html vOpt
+
+makeOpt = (value, text) ->
+    '<option value="'+value+'">'+text+'</option>'
+
+makeDef = (name) ->
+    makeOpt defaults[name].value, defaults[name].text
+
+$("#builds").change () ->
+    url = "/staging/api/build/" + $(this).val() if $(this).val()
+    $.getJSON url, (data) ->
+        buildForm "versions", data.buildSet
+
+$("#versions").change () ->
+    url = "/staging/api/build/" + $("#builds").val()+"/"+$(this).val() if $("#builds").val() and $(this).val()
+    $.getJSON url, (data) ->
+        out = "<pre>"+(JSON.stringify data, undefined, 2)+"</pre>"
+        $("#JSONrel").html(out)
+
+
+$(document).ready ()->
+    $("#builds").html makeDef 'builds'
+    $("#versions").html makeDef 'versions'
+    $.getJSON "/staging/api/build/", (data) ->
+        buildForm "builds", data.builds      
+</script>
+</body>
+</html>

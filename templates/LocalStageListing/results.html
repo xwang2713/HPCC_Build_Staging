@@ -1,0 +1,12 @@
+{% if files %}
+    <fieldset>
+    <legend>Files</legend>
+    <dl>
+    {% for file in files %}
+        {% for name,path in file.items %}
+            <dt><a href="/Local/Stage/{{ path }}">{{ name }}</a></dt>
+        {% endfor %}            
+    {% endfor %}
+    </dl>
+    </fieldset>
+{% endif %}
