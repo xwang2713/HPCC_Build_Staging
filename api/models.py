@@ -217,7 +217,7 @@ class HPCCFile(HPCCBase):
 
     def __getSize(self):
         try:
-            self.size = "%0.1f MB" % (
+            self.size = "%0.3f MB" % (
                     os.path.getsize(self.rawFile) / (1024 * 1024.0)
                 )
         except:
