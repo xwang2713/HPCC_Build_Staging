@@ -47,6 +47,14 @@ OS = {
         "title": "HPCC Client Tools for Centos6/RHEL6",
         "text": "",
         "link": ""
+        },
+        {
+        "id": "el6",
+        "name": "CentOS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor for Centos6/RHEL6",
+        "text": "",
+        "link": ""
         }
     ],
     "debian": [
@@ -105,6 +113,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "lucid",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 10.04 LTS",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "natty",
         "name": "Ubuntu",
         "install": "platform",
@@ -145,6 +161,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "precise",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 12.04 LTS",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "quantal",
         "name": "Ubuntu",
         "install": "platform",
@@ -169,6 +193,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "quantal",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 12.10 LTS",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "raring",
         "name": "Ubuntu",
         "install": "platform",
@@ -189,6 +221,46 @@ OS = {
         "name": "Ubuntu",
         "install": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 13.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "raring",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 13.04 LTS",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "saucy",
+        "name": "Ubuntu",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 13.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "saucy",
+        "name": "Ubuntu",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 13.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "saucy",
+        "name": "Ubuntu",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 13.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "saucy",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 13.10 LTS",
         "text": "",
         "link": ""
         }
@@ -261,6 +333,7 @@ BUILD_PATHS = [
 OPT_BUILD_PATHS = [
     "bin/clienttools",
     "bin/graphcontrol",
+    "bin/ganglia-monitoring",
     "bin/vm",
     "bin/ide",
 #    "bin/hdfsconnector", needs file templates
