@@ -196,7 +196,7 @@ OS = {
         "id": "quantal",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 12.10 LTS",
+        "title": "HPCC Ganglia Monitor Ubuntu 12.10",
         "text": "",
         "link": ""
         },
@@ -228,7 +228,7 @@ OS = {
         "id": "raring",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 13.04 LTS",
+        "title": "HPCC Ganglia Monitor Ubuntu 13.04",
         "text": "",
         "link": ""
         },
@@ -260,7 +260,7 @@ OS = {
         "id": "saucy",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 13.10 LTS",
+        "title": "HPCC Ganglia Monitor Ubuntu 13.10",
         "text": "",
         "link": ""
         }
