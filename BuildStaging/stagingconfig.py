@@ -161,7 +161,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "precise",
+        "id": "precise*64",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 12.04 LTS",
