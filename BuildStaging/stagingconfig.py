@@ -25,6 +25,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "el5",
+        "name": "CentOS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor for Centos5/RHEL5",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "el6",
         "name": "CentOS",
         "install": "platform",
@@ -45,6 +53,14 @@ OS = {
         "name": "CentOS",
         "install": "clienttools",
         "title": "HPCC Client Tools for Centos6/RHEL6",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el6",
+        "name": "CentOS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor for Centos6/RHEL6",
         "text": "",
         "link": ""
         },
@@ -161,10 +177,18 @@ OS = {
         "link": ""
         },
         {
-        "id": "precise*64",
+        "id": "precise",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 12.04 LTS",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "precise",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 12.04 LTS",
         "text": "",
         "link": ""
         },
@@ -197,6 +221,14 @@ OS = {
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 12.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "quantal",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 12.10",
         "text": "",
         "link": ""
         },
@@ -261,6 +293,54 @@ OS = {
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 13.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "saucy",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 13.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "trusty",
+        "name": "Ubuntu",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 14.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "trusty",
+        "name": "Ubuntu",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 14.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "trusty",
+        "name": "Ubuntu",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 14.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "trusty",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 14.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "trusty",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 14.04",
         "text": "",
         "link": ""
         }
@@ -334,6 +414,7 @@ OPT_BUILD_PATHS = [
     "bin/clienttools",
     "bin/graphcontrol",
     "bin/ganglia-monitoring",
+    "bin/nagios-monitoring",
     "bin/vm",
     "bin/ide",
 #    "bin/hdfsconnector", needs file templates
