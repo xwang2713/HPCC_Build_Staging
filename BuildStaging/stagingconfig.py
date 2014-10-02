@@ -137,6 +137,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "lucid",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 10.04 LTS",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "natty",
         "name": "Ubuntu",
         "install": "platform",
