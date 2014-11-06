@@ -71,6 +71,46 @@ OS = {
         "title": "HPCC Ganglia Monitor for Centos6/RHEL6",
         "text": "",
         "link": ""
+        },
+        {
+        "id": "el7",
+        "name": "CentOS",
+        "install": "platform",
+        "title": "HPCC Platform Centos7/RHEL7",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "plugins*el7",
+        "name": "CentOS",
+        "install": "platform",
+        "title": "HPCC Platform Centos7/RHEL7 with plugins",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el7",
+        "name": "CentOS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Centos7/RHEL7",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el7",
+        "name": "CentOS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor for Centos7/RHEL7",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el7",
+        "name": "CentOS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor for Centos7/RHEL7",
+        "text": "",
+        "link": ""
         }
     ],
     "debian": [
@@ -349,6 +389,46 @@ OS = {
         "name": "Ubuntu",
         "install": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 14.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "utopic",
+        "name": "Ubuntu",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 14.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "utopic",
+        "name": "Ubuntu",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 14.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "utopic",
+        "name": "Ubuntu",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 14.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "utopic",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 14.10",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "utopic",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 14.10",
         "text": "",
         "link": ""
         }
