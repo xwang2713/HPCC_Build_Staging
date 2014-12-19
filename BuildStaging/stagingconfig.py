@@ -465,6 +465,14 @@ OS = {
         "title": "HPCC Client Tools for Windows",
         "text": "",
         "link": ""
+        },
+        {
+        "id": "Windows",
+        "name": "Windows",
+        "install": "kel-lite",
+        "title": "HPCC Client Tools for Windows",
+        "text": "",
+        "link": ""
         }
     ],
     "all": [
@@ -505,6 +513,7 @@ OPT_BUILD_PATHS = [
     "bin/nagios-monitoring",
     "bin/vm",
     "bin/ide",
+    "bin/kel",
 #    "bin/hdfsconnector", needs file templates
 #    "bin/opt", File format needs fixing. (depricated)
     "docs",
