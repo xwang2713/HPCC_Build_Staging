@@ -465,14 +465,15 @@ OS = {
         "title": "HPCC Client Tools for Windows",
         "text": "",
         "link": ""
-        },
-        {
-        "id": "Windows",
-        "name": "Windows",
-        "install": "kel-lite",
-        "title": "HPCC Client Tools for Windows",
-        "text": "",
-        "link": ""
+# KEL Lite is not part of main HPCC release
+#        },
+#        {
+#        "id": "Windows",
+#        "name": "Windows",
+#        "install": "kel-lite",
+#        "title": "HPCC Client Tools for Windows",
+#        "text": "",
+#        "link": ""
         }
     ],
     "all": [
