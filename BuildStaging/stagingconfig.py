@@ -33,6 +33,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "el5",
+        "name": "CentOS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor for Centos5/RHEL5",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "el6",
         "name": "CentOS",
         "install": "platform",
@@ -73,6 +81,14 @@ OS = {
         "link": ""
         },
         {
+        "id": "el6",
+        "name": "CentOS",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu Centos6/RHEL6",
+        "text": "",
+        "link": ""
+        },
+        {
         "id": "el7",
         "name": "CentOS",
         "install": "platform",
@@ -109,6 +125,14 @@ OS = {
         "name": "CentOS",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor for Centos7/RHEL7",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el7",
+        "name": "CentOS",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu Centos7/RHEL7",
         "text": "",
         "link": ""
         }
@@ -225,7 +249,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "precise",
+        "id": "precise*64",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 12.04 LTS",
@@ -233,7 +257,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "precise",
+        "id": "precise*64",
         "name": "Ubuntu",
         "install": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 12.04 LTS",

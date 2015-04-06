@@ -7,7 +7,7 @@ from stagingconfig import (OS, EXT,
                     VERSION_RE_NORMALIZED)
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-BUILD_DIR = os.path.join(BASE_DIR,"builds")
+BUILD_DIR = os.path.join(BASE_DIR,"../tBuilds")
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG

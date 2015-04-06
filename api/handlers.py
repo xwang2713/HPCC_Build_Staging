@@ -9,12 +9,16 @@ from models import HPCCBuilds
 
 import sys
 
-buildObj = HPCCBuilds(settings.BUILD_DIR)
+# This only executs when web app starts
+# If there is new projects created after it
+# reference these projects from URL will fail
+#buildObj = HPCCBuilds(settings.BUILD_DIR)
 
 class BuildsHandler(BaseHandler):
     allowed_methods = {'GET'}
 
     def read(self, request):
+        buildObj = HPCCBuilds(settings.BUILD_DIR)
         return {"builds": buildObj.builds}
 
 class BuildSetHandler(BaseHandler):
@@ -22,6 +26,7 @@ class BuildSetHandler(BaseHandler):
     fields = ('build')
 
     def read(self, request, build):
+        buildObj = HPCCBuilds(settings.BUILD_DIR)
         if not build in buildObj.builds:
             return resError(5001, "Bad build name.")
 
@@ -33,6 +38,7 @@ class VersionSetHandler(BaseHandler):
     fields = ('build', 'version')
 
     def read(self, request, build, version):
+        buildObj = HPCCBuilds(settings.BUILD_DIR)
     	version_dict = {}
     	if not build in buildObj.builds:
             return resError(5001, "Bad build name.")
