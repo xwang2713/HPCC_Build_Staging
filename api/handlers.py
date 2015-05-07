@@ -66,6 +66,9 @@ class VersionSetHandler(BaseHandler):
                         vm_arch = ' 64bit'
                     else:
                         vm_arch = ' 32bit'
+                   
+                    if "vmx" in file.file: 
+                        vm_arch = vm_arch + ' For VMWare'
                 files.append({
             	    'Type': file.install,
             	    'OS': file.osTemplate['name'],
