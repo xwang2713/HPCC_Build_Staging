@@ -97,9 +97,10 @@ class HPCCBase(object):
             try:
                 return '-'.join(ns.group().rsplit('.', 1))
             except:
-                raise HPCCError(1001,
+                #raise HPCCError(1001,
                     "Cannot get version: {0}".format(file)
-                )
+                    return "Unkonwn"
+                #)
         return False
 
     def get_ver_dict(self, version):
@@ -126,6 +127,8 @@ class HPCCBase(object):
 
     def cmp_ver(self, ver_string, file):
         ver = self.get_ver_string(file)
+        if ver is None:
+            return False
         if ver == ver_string:
             return True
         return False

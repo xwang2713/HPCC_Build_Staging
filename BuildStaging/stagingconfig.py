@@ -84,7 +84,7 @@ OS = {
         "id": "el6",
         "name": "CentOS",
         "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu Centos6/RHEL6",
+        "title": "HPCC Graph Control for Centos6/RHEL6",
         "text": "",
         "link": ""
         },
@@ -92,7 +92,7 @@ OS = {
         "id": "el7",
         "name": "CentOS",
         "install": "platform",
-        "title": "HPCC Platform Centos7/RHEL7",
+        "title": "HPCC Platform for Centos7/RHEL7",
         "text": "",
         "link": ""
         },
@@ -100,7 +100,7 @@ OS = {
         "id": "plugins*el7",
         "name": "CentOS",
         "install": "platform",
-        "title": "HPCC Platform Centos7/RHEL7 with plugins",
+        "title": "HPCC Platform for Centos7/RHEL7 with plugins",
         "text": "",
         "link": ""
         },
@@ -132,7 +132,7 @@ OS = {
         "id": "el7",
         "name": "CentOS",
         "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu Centos7/RHEL7",
+        "title": "HPCC Graph Control for Centos7/RHEL7",
         "text": "",
         "link": ""
         }
@@ -538,7 +538,7 @@ OPT_BUILD_PATHS = [
     "bin/nagios-monitoring",
     "bin/vm",
     "bin/ide",
-    "bin/kel",
+#    "bin/kel",
 #    "bin/hdfsconnector", needs file templates
 #    "bin/opt", File format needs fixing. (depricated)
     "docs",
