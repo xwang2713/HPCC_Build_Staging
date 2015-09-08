@@ -455,6 +455,46 @@ OS = {
         "title": "HPCC Nagios Monitor Ubuntu 14.10",
         "text": "",
         "link": ""
+        },
+        {
+        "id": "vivid",
+        "name": "Ubuntu",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 15.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "vivid",
+        "name": "Ubuntu",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 15.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "vivid",
+        "name": "Ubuntu",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 15.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "vivid",
+        "name": "Ubuntu",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 15.04",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "vivid",
+        "name": "Ubuntu",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 15.04",
+        "text": "",
+        "link": ""
         }
     ],
     "windows": [
