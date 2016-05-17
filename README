@@ -2,4 +2,4 @@ BuildStaging
 
 Django BuildStaging project
 
-default file is /etc/nginx/sites-available/default
+default file is /etc/nginx/sites-available/default or /etc/nginx/conf.d/default.conf

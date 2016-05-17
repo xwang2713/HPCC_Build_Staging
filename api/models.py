@@ -6,8 +6,10 @@ import sys
 
 from django.conf import settings
 from django.db import models
+#django 1.5 or later doesn't ship simplejson anymore
 from django.utils import simplejson
-import json
+#import simplejson
+#import json
 
 OS = settings.OS
 EXT = settings.EXT
