@@ -59,6 +59,14 @@ OS = {
         {
         "id": "el5",
         "name": "CentOS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached for Centos5/RHEL5",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el5",
+        "name": "CentOS",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed for Centos5/RHEL5",
         "text": "",
@@ -141,6 +149,14 @@ OS = {
         "name": "CentOS",
         "install": "plugin-kafka",
         "title": "HPCC Plugin Kafka for Centos6/RHEL6",
+        "text": "",
+        "link": ""
+        },
+        {
+        "id": "el6",
+        "name": "CentOS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached for Centos6/RHEL6",
         "text": "",
         "link": ""
         },
