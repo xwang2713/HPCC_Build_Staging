@@ -1,3 +1,5 @@
 #!/bin/bash
 
-kill `cat /tmp/dj.pid`
+# kill the parent python manage process which parent pid is 1
+echo "kill $(cat /tmp/dj.pid)"
+kill $(cat /tmp/dj.pid)
