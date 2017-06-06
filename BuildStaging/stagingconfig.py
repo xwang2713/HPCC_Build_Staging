@@ -593,7 +593,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "platform",
         "title": "HPCC Platform Ubuntu 14.04 LTS",
@@ -601,7 +601,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "graphcontrol",
         "title": "HPCC Graph Control for Ubuntu 14.04 LTS",
@@ -609,7 +609,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 14.04 LTS",
@@ -617,7 +617,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 14.04 LTS",
@@ -625,7 +625,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 14.04 LTS",
@@ -633,7 +633,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 14.04 LTS",
@@ -641,7 +641,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 14.04 LTS",
@@ -649,7 +649,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 14.04 LTS",
@@ -657,7 +657,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 14.04 LTS",
@@ -665,7 +665,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 14.04 LTS",
@@ -673,7 +673,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-pyembed",
         "title": "HPCC Plugin Pyembed Ubuntu 14.04 LTS",
@@ -681,7 +681,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed Ubuntu 14.04 LTS",
@@ -689,7 +689,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-py2embed",
         "title": "HPCC Plugin Py3embed Ubuntu 14.04 LTS",
@@ -697,7 +697,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 14.04 LTS",
@@ -705,7 +705,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 14.04 LTS",
@@ -713,7 +713,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 14.04 LTS",
@@ -721,7 +721,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 14.04 LTS",
@@ -729,7 +729,7 @@ OS = {
         "link": ""
         },
         {
-        "id": "trusty",
+        "id": "trusty*64",
         "name": "Ubuntu",
         "install": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 14.04 LTS",
