@@ -79,7 +79,8 @@ class VersionSetHandler(BaseHandler):
             	    'Download_Size': file.size,
             	    'Display_Name': file.osTemplate['title']  + vm_arch,
             	    'Link_Text': file.osTemplate['text'],
-            	    'Link_Path': link
+            	    'Link_Path': link,
+            	    'Essential': file.osTemplate['essential']
                 })
             except:
                 pass
