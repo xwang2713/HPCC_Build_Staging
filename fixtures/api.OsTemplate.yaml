@@ -25,7 +25,7 @@
 - model: api.OsTemplate
   pk: 4
   fields:
-    Tname: MacOSX
+    Tname: Mac OSX
     Ttitle: Client Tools for Mac OSX
     Tinstall: clienttools
     Tos: mac

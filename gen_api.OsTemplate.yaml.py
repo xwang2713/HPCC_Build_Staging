@@ -29,7 +29,7 @@ OS = [
     {
     "os": "mac",
     "id": "Darwin",
-    "name": "MacOSX",
+    "name": "Mac OSX",
     "install": "clienttools",
     "title": "Client Tools for Mac OSX",
     "text": "",

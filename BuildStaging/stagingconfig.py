@@ -465,7 +465,7 @@ OS = {
     "mac": [
         {
         "id": "Darwin",
-        "name": "MacOSX",
+        "name": "Mac OSX",
         "install": "clienttools",
         "title": "HPCC Client Tools for Mac OSX",
         "text": "",
@@ -474,7 +474,7 @@ OS = {
         },
         {
         "id": "Darwin",
-        "name": "MacOSX",
+        "name": "Mac OSX",
         "install": "graphcontrol",
         "title": "HPCC Graph Control for Mac OSX",
         "text": "",
