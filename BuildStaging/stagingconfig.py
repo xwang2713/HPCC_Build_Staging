@@ -1243,7 +1243,7 @@ OS = {
         },
         {
         "id": "zesty",
-        "name": "Ubuntu",
+        "name": "Ubuntu 17.04",
         "install": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 17.04",
         "text": "",
@@ -1307,10 +1307,19 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "Windows",
+        "id": "Windows*i386",
         "name": "Windows",
         "install": "clienttools",
-        "title": "HPCC Client Tools for Windows",
+        "title": "HPCC Client Tools for Windows 32bit",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "Windows*x86_64",
+        "name": "Windows",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Windows 64bit",
         "text": "",
         "link": "",
         "essential": "1"
