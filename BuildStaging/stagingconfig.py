@@ -1,114 +1,6 @@
 OS = {
     "centos": [
         {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "platform",
-        "title": "HPCC Platform Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-	{
-        "id": "plugins*el5",
-        "name": "CentOS5/RHEL5",
-        "install": "platform",
-        "title": "HPCC Platform Centos5/RHEL5 with plugins",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "clienttools",
-        "title": "HPCC Client Tools for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "nagios-monitoring",
-        "title": "HPCC Nagios Monitor for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-couchbaseembed",
-        "title": "HPCC Plugin Couchbaseembed for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-javaembed",
-        "title": "HPCC Plugin Javaembed for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-kafka",
-        "title": "HPCC Plugin Kafka for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-memcached",
-        "title": "HPCC Plugin Memcached for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-mysqlembed",
-        "title": "HPCC Plugin MySQLembed for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-pyembed",
-        "title": "HPCC Plugin Pyembed for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "el5",
-        "name": "CentOS5/RHEL5",
-        "install": "plugin-rembed",
-        "title": "HPCC Plugin Rembed for Centos5/RHEL5",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
         "id": "el6",
         "name": "CentOS6/RHEL6",
         "install": "platform",
@@ -495,157 +387,13 @@ OS = {
     ],
     "ubuntu": [
         {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "platform",
-        "title": "HPCC Platform Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-        {
-        "id": "precise",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "clienttools",
-        "title": "HPCC Client Tools for Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-        {
-        "id": "precise",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "nagios-monitoring",
-        "title": "HPCC Nagios Monitor Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-couchbaseembed",
-        "title": "HPCC Plugin Couchbaseembed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-javaembed",
-        "title": "HPCC Plugin Javaembed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-kafka",
-        "title": "HPCC Plugin Kafka Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-memcached",
-        "title": "HPCC Plugin Memcached Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-mysqlembed",
-        "title": "HPCC Plugin MySQLembed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-pyembed",
-        "title": "HPCC Plugin Pyembed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu",
-        "install": "plugin-redis",
-        "title": "HPCC Plugin Redis Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-rembed",
-        "title": "HPCC Plugin Rembed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-sqlite3embed",
-        "title": "HPCC Plugin Sqlite3embed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "precise*64",
-        "name": "Ubuntu 12.04 LTS",
-        "install": "plugin-v8embed",
-        "title": "HPCC Plugin V8embed Ubuntu 12.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
         "id": "trusty*64",
         "name": "Ubuntu 14.04 LTS",
         "install": "platform",
         "title": "HPCC Platform Ubuntu 14.04 LTS",
         "text": "",
         "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "trusty*64",
-        "name": "Ubuntu 14.04 LTS",
-        "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu 14.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
+        "essential": "1"
         },
         {
         "id": "trusty*64",
@@ -654,25 +402,7 @@ OS = {
         "title": "HPCC Client Tools for Ubuntu 14.04 LTS",
         "text": "",
         "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "trusty*64",
-        "name": "Ubuntu 14.04 LTS",
-        "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 14.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "trusty*64",
-        "name": "Ubuntu",
-        "install": "nagios-monitoring",
-        "title": "HPCC Nagios Monitor Ubuntu 14.04 LTS",
-        "text": "",
-        "link": "",
-        "essential": "0"
+        "essential": "1"
         },
         {
         "id": "trusty*64",
@@ -730,13 +460,14 @@ OS = {
         },
         {
         "id": "trusty*64",
-        "name": "Ubuntu 14.04 LTS",
+        "name": "Ubuntu 16.04 LTS",
         "install": "plugin-py2embed",
         "title": "HPCC Plugin Py2embed Ubuntu 14.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
+
         {
         "id": "trusty*64",
         "name": "Ubuntu 14.04 LTS",
@@ -787,6 +518,33 @@ OS = {
         "name": "Ubuntu 14.04 LTS",
         "install": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 14.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "trusty*64",
+        "name": "Ubuntu 14.04 LTS",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 14.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "trusty*64",
+        "name": "Ubuntu 14.04 LTS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 14.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "trusty*64",
+        "name": "Ubuntu 14.04 LTS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 14.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -954,329 +712,140 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "platform",
-        "title": "HPCC Platform Ubuntu 16.10",
+        "title": "HPCC Platform Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "1"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu 16.10",
+        "title": "HPCC Graph Control for Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "clienttools",
-        "title": "HPCC Client Tools for Ubuntu 16.10",
+        "title": "HPCC Client Tools for Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "1"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 16.10",
+        "title": "HPCC Ganglia Monitor Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "nagios-monitoring",
-        "title": "HPCC Nagios Monitor Ubuntu 16.10",
+        "title": "HPCC Nagios Monitor Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-couchbaseembed",
-        "title": "HPCC Plugin Couchbaseembed Ubuntu 16.10",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-javaembed",
-        "title": "HPCC Plugin Javaembed Ubuntu 16.10",
+        "title": "HPCC Plugin Javaembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-kafka",
-        "title": "HPCC Plugin Kafka Ubuntu 16.10",
+        "title": "HPCC Plugin Kafka Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-memcached",
-        "title": "HPCC Plugin Memcached Ubuntu 16.10",
+        "title": "HPCC Plugin Memcached Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-mysqlembed",
-        "title": "HPCC Plugin MySQLembed Ubuntu 16.10",
+        "title": "HPCC Plugin MySQLembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
-        "install": "plugin-pyembed",
-        "title": "HPCC Plugin Pyembed Ubuntu 16.10",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
-        "install": "plugin-py2embed",
-        "title": "HPCC Plugin Py2embed Ubuntu 16.10",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
-        "install": "plugin-py3embed",
-        "title": "HPCC Plugin Py3embed Ubuntu 16.10",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-redis",
-        "title": "HPCC Plugin Redis Ubuntu 16.10",
+        "title": "HPCC Plugin Redis Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-rembed",
-        "title": "HPCC Plugin Rembed Ubuntu 16.10",
+        "title": "HPCC Plugin Rembed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-sqlite3embed",
-        "title": "HPCC Plugin Sqlite3embed Ubuntu 16.10",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-sqs",
-        "title": "HPCC Plugin SQS Ubuntu 16.10",
+        "title": "HPCC Plugin SQS Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "yakkety",
-        "name": "Ubuntu 16.10",
+        "id": "bionic",
+        "name": "Ubuntu 18.04 LTS",
         "install": "plugin-v8embed",
-        "title": "HPCC Plugin V8embed Ubuntu 16.10",
+        "title": "HPCC Plugin V8embed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "platform",
-        "title": "HPCC Platform Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "clienttools",
-        "title": "HPCC Client Tools for Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "1"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "nagios-monitoring",
-        "title": "HPCC Nagios Monitor Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-couchbaseembed",
-        "title": "HPCC Plugin Couchbaseembed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-javaembed",
-        "title": "HPCC Plugin Javaembed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-kafka",
-        "title": "HPCC Plugin Kafka Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-memcached",
-        "title": "HPCC Plugin Memcached Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-mysqlembed",
-        "title": "HPCC Plugin MySQLembed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-pyembed",
-        "title": "HPCC Plugin Pyembed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-py2embed",
-        "title": "HPCC Plugin Py2embed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-py3embed",
-        "title": "HPCC Plugin Py3embed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-redis",
-        "title": "HPCC Plugin Redis Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-rembed",
-        "title": "HPCC Plugin Rembed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-sqlite3embed",
-        "title": "HPCC Plugin Sqlite3embed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-sqs",
-        "title": "HPCC Plugin SQS Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
-        {
-        "id": "zesty",
-        "name": "Ubuntu 17.04",
-        "install": "plugin-v8embed",
-        "title": "HPCC Plugin V8embed Ubuntu 17.04",
-        "text": "",
-        "link": "",
-        "essential": "0"
-        },
+        }
     ],
     "windows": [
         {
@@ -1337,7 +906,7 @@ OS = {
     "all": [
         {
         "id": "VM",
-        "name": "all",
+        "name": "Virtual Machine",
         "install": "VM",
         "title": "HPCC VM Image",
         "text": "Release Notes",
