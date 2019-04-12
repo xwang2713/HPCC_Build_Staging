@@ -1,5 +1,12 @@
 #!/bin/bash
 
 # kill the parent python manage process which parent pid is 1
-echo "kill -9  $(cat /tmp/dj.pid)"
-kill -9  $(cat /tmp/dj.pid)
+#echo "kill -9  $(cat /tmp/dj.pid)"
+#kill -9  $(cat /tmp/dj.pid)
+
+ps -efa  |grep -v grep | grep  "python ./manage.py" | awk '{print $2}' | \
+while read pid
+do
+  echo "kill $pid"
+  kill -9 $pid
+done

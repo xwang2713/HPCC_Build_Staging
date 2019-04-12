@@ -59,28 +59,40 @@ class VersionSetHandler(BaseHandler):
         for file in vS.files:
             try:
                 link = file.osTemplate['link']
+            	essential =  file.osTemplate['essential']
+            	display_name =  file.osTemplate['title']
                 vm_arch = ''
                 if "VM" in file.osTemplate['id']:
                     link = file.osTemplate['link'] + file.version
+
                     if file.file.find('amd64') >= 0:
                         vm_arch = ' 64bit'
+            	        display_name =  'VM Image 64bit'
+                        essential = 1
                     else:
                         vm_arch = ' 32bit'
+            	        display_name =  'VM Image 32bit'
+                        essential = 0
                    
                     if "vmx" in file.file: 
                         vm_arch = vm_arch + ' For VMWare'
+                if file.osTemplate['install'] == "plugin-spark":
+                    package_type = "Spark-integrator"
+                else:
+                    package_type = file.install
+
                 files.append({
-            	    'Type': file.install,
+            	    'Type': package_type,
             	    'OS': file.osTemplate['name'],
             	    'Version_Number': file.version,
             	    'File_Name': file.file,
             	    'MD5': file.md5,
             	    'Edge_Cast_Path': 'releases'+file.getRelativePath(settings.BUILD_DIR),
             	    'Download_Size': file.size,
-            	    'Display_Name': file.osTemplate['title']  + vm_arch,
+            	    'Display_Name': display_name,
             	    'Link_Text': file.osTemplate['text'],
             	    'Link_Path': link,
-            	    'Essential': file.osTemplate['essential']
+            	    'Essential': essential
                 })
             except:
                 pass

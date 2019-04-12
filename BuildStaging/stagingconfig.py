@@ -172,6 +172,24 @@ OS = {
         "essential": "0"
         },
         {
+        "id": "el6",
+        "name": "CentOS6/RHEL6",
+        "install": "Spark-integratior",
+        "title": "HPCC Plugin Spark for Centos6/RHEL6",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el6",
+        "name": "CentOS6/RHEL6",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark for Centos6/RHEL6",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
         "id": "el7",
         "name": "CentOS7/RHEL7",
         "install": "platform",
@@ -338,6 +356,15 @@ OS = {
         "name": "CentOS7/RHEL7",
         "install": "plugin-v8embed",
         "title": "HPCC Plugin V8embed for Centos7/RHEL7",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el7",
+        "name": "CentOS7/RHEL7",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark for Centos7/RHEL7",
         "text": "",
         "link": "",
         "essential": "0"
@@ -518,6 +545,15 @@ OS = {
         "name": "Ubuntu 14.04 LTS",
         "install": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 14.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "trusty*64",
+        "name": "Ubuntu 14.04 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 14.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -712,7 +748,16 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "xenial",
+        "name": "Ubuntu 16.04 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 16.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "platform",
         "title": "HPCC Platform Ubuntu 18.04 LTS",
@@ -721,7 +766,7 @@ OS = {
         "essential": "1"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "graphcontrol",
         "title": "HPCC Graph Control for Ubuntu 18.04 LTS",
@@ -730,7 +775,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "clienttools",
         "title": "HPCC Client Tools for Ubuntu 18.04 LTS",
@@ -739,7 +784,7 @@ OS = {
         "essential": "1"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "ganglia-monitoring",
         "title": "HPCC Ganglia Monitor Ubuntu 18.04 LTS",
@@ -748,7 +793,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "nagios-monitoring",
         "title": "HPCC Nagios Monitor Ubuntu 18.04 LTS",
@@ -757,7 +802,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-couchbaseembed",
         "title": "HPCC Plugin Couchbaseembed Ubuntu 18.04 LTS",
@@ -766,7 +811,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 18.04 LTS",
@@ -775,7 +820,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-kafka",
         "title": "HPCC Plugin Kafka Ubuntu 18.04 LTS",
@@ -784,7 +829,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-memcached",
         "title": "HPCC Plugin Memcached Ubuntu 18.04 LTS",
@@ -793,7 +838,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-mysqlembed",
         "title": "HPCC Plugin MySQLembed Ubuntu 18.04 LTS",
@@ -802,7 +847,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-redis",
         "title": "HPCC Plugin Redis Ubuntu 18.04 LTS",
@@ -811,7 +856,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-rembed",
         "title": "HPCC Plugin Rembed Ubuntu 18.04 LTS",
@@ -820,7 +865,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-sqlite3embed",
         "title": "HPCC Plugin Sqlite3embed Ubuntu 18.04 LTS",
@@ -829,7 +874,7 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-sqs",
         "title": "HPCC Plugin SQS Ubuntu 18.04 LTS",
@@ -838,14 +883,159 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "bionic",
+        "id": "bionic*64",
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-v8embed",
         "title": "HPCC Plugin V8embed Ubuntu 18.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
+        },
+        {
+        "id": "bionic*64",
+        "name": "Ubuntu 18.04 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 18.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-sqs",
+        "title": "HPCC Plugin SQS Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "cosmic",
+        "name": "Ubuntu 18.10 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 18.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
         }
+
     ],
     "windows": [
         {
@@ -882,7 +1072,7 @@ OS = {
         "title": "HPCC Client Tools for Windows 32bit",
         "text": "",
         "link": "",
-        "essential": "1"
+        "essential": "0"
         },
         {
         "id": "Windows*x86_64",
@@ -891,7 +1081,7 @@ OS = {
         "title": "HPCC Client Tools for Windows 64bit",
         "text": "",
         "link": "",
-        "essential": "1"
+        "essential": "0"
 # KEL Lite is not part of main HPCC release
 #        },
 #        {
@@ -911,6 +1101,7 @@ OS = {
         "title": "HPCC VM Image",
         "text": "Release Notes",
         "link": "/download/free-community-edition-known-limitations#",
+#essential will be overwritten in api/hander.py for 64bit
         "essential": "0"
         }
     ],
