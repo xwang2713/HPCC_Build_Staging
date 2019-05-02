@@ -1034,8 +1034,142 @@ OS = {
         "text": "",
         "link": "",
         "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-sqs",
+        "title": "HPCC Plugin SQS Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "disco",
+        "name": "Ubuntu 19.04 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 19.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
         }
-
     ],
     "windows": [
         {
