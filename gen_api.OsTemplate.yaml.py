@@ -124,6 +124,15 @@ OS = [
     "title": "HPCC VM Image",
     "text": "Release Notes",
     "link": "/downloads/vm-release-notes#"
+    },
+    {
+    "os": "all",
+    "id": "docs",
+    "name": "all",
+    "install": "documentation",
+    "title": "HPCC Documentation",
+    "text": "Release Notes",
+    "link": ""
     }
 ]
 

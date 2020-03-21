@@ -1169,6 +1169,150 @@ OS = {
         "text": "",
         "link": "",
         "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+#        {
+#        "id": "eoan",
+#        "name": "Ubuntu 19.10 LTS",
+#        "install": "plugin-sqs",
+#        "title": "HPCC Plugin SQS Ubuntu 19.10 LTS",
+#        "text": "",
+#        "link": "",
+#        "essential": "0"
+#        },
+#        {
+#        "id": "eoan",
+#        "name": "Ubuntu 19.10 LTS",
+#        "install": "plugin-v8embed",
+#        "title": "HPCC Plugin V8embed Ubuntu 19.10 LTS",
+#        "text": "",
+#        "link": "",
+#        "essential": "0"
+#        },
+        {
+        "id": "eoan",
+        "name": "Ubuntu 19.10 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 19.10 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
         }
     ],
     "windows": [
@@ -1237,9 +1381,16 @@ OS = {
         "link": "/download/free-community-edition-known-limitations#",
 #essential will be overwritten in api/hander.py for 64bit
         "essential": "0"
+        },
+        {
+        "id": "DOCS",
+        "name": "Documentation",
+        "install": "ALL_HPCC_DOCS_EN_US",
+        "title": "All Documentation (EN_US)",
+        "text": "",
+        "link": "",
+        "essential": "1"
         }
-    ],
-    "docs": [
     ]
 }
 
@@ -1248,9 +1399,9 @@ EXT = [
     "dmg",
     "gz",
     "msi",
-    "pdf",
     "rpm",
     "txt",
+    "pdf",
     "zip",
     "ova",
     "exe"
@@ -1271,7 +1422,7 @@ OPT_BUILD_PATHS = [
 #    "bin/kel",
 #    "bin/hdfsconnector", needs file templates
 #    "bin/opt", File format needs fixing. (depricated)
-    "docs",
+    "docs/EN_US",
 ]
 
 #VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.)(\d){1,2}(rc|closedown|beta|alpha|trunk)?'

@@ -81,6 +81,7 @@ class VersionSetHandler(BaseHandler):
                 else:
                     package_type = file.install
 
+                print("!-! " + file.file)
                 files.append({
             	    'Type': package_type,
             	    'OS': file.osTemplate['name'],

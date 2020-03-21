@@ -112,3 +112,12 @@
     Tinstall: platform
     Tos: all
     Tid: VM
+- model: api.OsTemplate
+  pk: 15
+  fields:
+    Tname: all
+    Ttitle: HPCC Documentation
+    Ttext: Release Notes
+    Tinstall: documentation
+    Tos: all
+    Tid: docs
