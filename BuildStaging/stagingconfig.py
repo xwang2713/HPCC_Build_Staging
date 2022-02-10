@@ -368,6 +368,186 @@ OS = {
         "text": "",
         "link": "",
         "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "platform",
+        "title": "HPCC Platform for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "plugins*el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "platform",
+        "title": "HPCC Platform for CentOS Stream 8/RHEL8 with plugins",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-pyembed",
+        "title": "HPCC Plugin Pyembed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-py2embed",
+        "title": "HPCC Plugin Py2embed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-py3embed",
+        "title": "HPCC Plugin Py3embed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-sqs",
+        "title": "HPCC Plugin SQS for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "el8",
+        "name": "CentOS Stream 8/RHEL8",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark for CentOS Stream 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
         }
     ],
     "debian": [
@@ -896,6 +1076,294 @@ OS = {
         "name": "Ubuntu 18.04 LTS",
         "install": "plugin-spark",
         "title": "HPCC Plugin Spark Ubuntu 18.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 18.04 LTS",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-sqs",
+        "title": "HPCC Plugin SQS Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "focal*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "platform",
+        "title": "HPCC Platform Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 20.04 LTS",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Ubuntu 20.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 18.04 LTS",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-sqs",
+        "title": "HPCC Plugin SQS Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed Ubuntu 22.04 LTS",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "jammy*64",
+        "name": "Ubuntu 22.04 LTS",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
