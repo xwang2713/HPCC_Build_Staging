@@ -1895,8 +1895,10 @@ OPT_BUILD_PATHS = [
 
 #VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.)(\d){1,2}(rc|closedown|beta|alpha|trunk)?'
 #VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-)(\d){1,2}(rc|closedown|beta|alpha|trunk)?'
-VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
-VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+#VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+#VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,}(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,}(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
 
 #backup existing line
 #VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.)(rc|closedown|beta|alpha|trunk)((\d){1,2})?'
