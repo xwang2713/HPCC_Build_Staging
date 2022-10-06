@@ -1235,9 +1235,9 @@ OS = {
         },
         {
         "id": "jammy*64",
-        "name": "Ubuntu 20.04 LTS",
+        "name": "Ubuntu 22.04 LTS",
         "install": "graphcontrol",
-        "title": "HPCC Graph Control for Ubuntu 20.04 LTS",
+        "title": "HPCC Graph Control for Ubuntu 22.04 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -1280,7 +1280,7 @@ OS = {
         },
         {
         "id": "jammy*64",
-        "name": "Ubuntu 18.04 LTS",
+        "name": "Ubuntu 22.04 LTS",
         "install": "plugin-javaembed",
         "title": "HPCC Plugin Javaembed Ubuntu 22.04 LTS",
         "text": "",
@@ -1369,136 +1369,136 @@ OS = {
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "platform",
-        "title": "HPCC Platform Ubuntu 18.10 LTS",
+        "title": "HPCC Platform Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "1"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "clienttools",
-        "title": "HPCC Client Tools for Ubuntu 18.10 LTS",
+        "title": "HPCC Client Tools for Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "1"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "ganglia-monitoring",
-        "title": "HPCC Ganglia Monitor Ubuntu 18.10 LTS",
+        "title": "HPCC Ganglia Monitor Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "nagios-monitoring",
-        "title": "HPCC Nagios Monitor Ubuntu 18.10 LTS",
+        "title": "HPCC Nagios Monitor Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-couchbaseembed",
-        "title": "HPCC Plugin Couchbaseembed Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Couchbaseembed Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-javaembed",
-        "title": "HPCC Plugin Javaembed Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Javaembed Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-kafka",
-        "title": "HPCC Plugin Kafka Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Kafka Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-memcached",
-        "title": "HPCC Plugin Memcached Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Memcached Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-mysqlembed",
-        "title": "HPCC Plugin MySQLembed Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin MySQLembed Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-redis",
-        "title": "HPCC Plugin Redis Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Redis Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-rembed",
-        "title": "HPCC Plugin Rembed Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Rembed Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-sqlite3embed",
-        "title": "HPCC Plugin Sqlite3embed Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Sqlite3embed Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-sqs",
-        "title": "HPCC Plugin SQS Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin SQS Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-v8embed",
-        "title": "HPCC Plugin V8embed Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin V8embed Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
         },
         {
-        "id": "cosmic",
-        "name": "Ubuntu 18.10 LTS",
+        "id": "kinetic",
+        "name": "Ubuntu 22.10 LTS",
         "install": "plugin-spark",
-        "title": "HPCC Plugin Spark Ubuntu 18.10 LTS",
+        "title": "HPCC Plugin Spark Ubuntu 22.10 LTS",
         "text": "",
         "link": "",
         "essential": "0"
@@ -1897,8 +1897,10 @@ OPT_BUILD_PATHS = [
 #VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-)(\d){1,2}(rc|closedown|beta|alpha|trunk)?'
 #VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
 #VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
-VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,}(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
-VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,}(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+#VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,}(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+#VERSION_RE_NORMALIZED = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,}(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+VERSION_RE = r'(?:(\d{1,2})\.)(?:(\d{1,2})\.)(\d{1,})(\-|\.|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
+VERSION_RE_NORMALIZED = r'(?:(\d{1,2})\.)(?:(\d{1,2})\.)(\d{1,})(\-|\~)(\d{1,2}|rc|closedown|beta|alpha|trunk)(\d{1,2})?'
 
 #backup existing line
 #VERSION_RE = r'(?:(\d){1,2}\.)(?:(\d){1,2}\.)(\d){1,2}(\-|\.)(rc|closedown|beta|alpha|trunk)((\d){1,2})?'
