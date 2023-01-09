@@ -77,7 +77,7 @@ class VersionSetHandler(BaseHandler):
                     if "vmx" in file.file: 
                         vm_arch = vm_arch + ' For VMWare'
                 if file.osTemplate['install'] == "plugin-spark":
-                    package_type = "Spark-integrator"
+                    package_type = "plugin-spark"
                 else:
                     package_type = file.install
 
