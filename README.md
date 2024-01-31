@@ -105,3 +105,8 @@ pre 4.0.0 builds are commented out in this file.
 ### Unrecognized version displayed as "Unknown"
 Previous unrecognized version will cause exception throwing which will terminate the json process. For example, Kel file KEL-0.5.4.zip. To workaround this we just print out the version as "Unknown" and continue process other files and versions. Source file: api/module.py/get_ver_string(self, file)
 
+
+## Build Files
+### A Sample Tree List
+tree-CE-9.4.20-bin
+This file list CE-Candidate-9.4.20/bin which contains two builds: 1) A candidate build: 9.4.20-rc1 2) A gold build: 9.4.20-1
