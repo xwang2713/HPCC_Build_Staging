@@ -629,6 +629,222 @@ OS = {
         "text": "",
         "link": "",
         "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "platform",
+        "title": "HPCC Platform for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "plugins*rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "platform",
+        "title": "HPCC Platform for Rocky Linux 8/RHEL8 with plugins",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "clienttools",
+        "title": "HPCC Client Tools for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "1"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "nagios-monitoring",
+        "title": "HPCC Nagios Monitor for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "ganglia-monitoring",
+        "title": "HPCC Ganglia Monitor for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "graphcontrol",
+        "title": "HPCC Graph Control for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-javaembed",
+        "title": "HPCC Plugin Javaembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-couchbaseembed",
+        "title": "HPCC Plugin Couchbaseembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-kafka",
+        "title": "HPCC Plugin Kafka for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-memcached",
+        "title": "HPCC Plugin Memcached for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-mysqlembed",
+        "title": "HPCC Plugin MySQLembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-pyembed",
+        "title": "HPCC Plugin Pyembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-py2embed",
+        "title": "HPCC Plugin Py2embed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-py3embed",
+        "title": "HPCC Plugin Py3embed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-redis",
+        "title": "HPCC Plugin Redis for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-rembed",
+        "title": "HPCC Plugin Rembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-sqlite3embed",
+        "title": "HPCC Plugin Sqlite3embed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-sqs",
+        "title": "HPCC Plugin SQS for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-v8embed",
+        "title": "HPCC Plugin V8embed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-cassandraembed",
+        "title": "HPCC Plugin Cassandrambed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-parquetembed",
+        "title": "HPCC Plugin Parquet for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-eclblas",
+        "title": "HPCC Plugin ECLBLAS for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-spark",
+        "title": "HPCC Plugin Spark for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
+        },
+        {
+        "id": "rocky8",
+        "name": "Rocky Linux 8/RHEL8",
+        "install": "plugin-wasmembed",
+        "title": "HPCC Plugin Wasmembed for Rocky Linux 8/RHEL8",
+        "text": "",
+        "link": "",
+        "essential": "0"
         }
     ],
     "debian": [
